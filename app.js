@@ -1,82 +1,45 @@
-// let app =[123, 'abc', 456, 'dfe', "vasya", 777]
-// let i = 0
-// let j = app.length
+// function greet (name) {
+//     console.log ("Hello,", name)
+// }
+// greet("Elena")
 //
-// while (i < j) {
-//     console.log(app[i])
-//     i++
+// const t = function t (name) {
+//     console.log("Hello -", name)
 // }
-// console.log('------------')
-// for (i = 0; i < app.length; i++) {
-//     console.log(app[i])
-// }
-// console.log('------backwards------')
-// i = 0
-// j = app.length - 1
-//
-// while (j >= i) {
-//     console.log(app[j])
-//     j--
-// }
-// console.log('------backwards------')
-// j = app.length - 1
-// for (i = 0; i <= j; j--) {
-//     console.log(app[j])
-// }
-// console.log('-----number-----')
-// j = app.length
-// while (i < j) {
-//     if(typeof app[i] === 'number') {
-//         console.log(app[i])
-//     }
-//     i++
-// }
-// console.log('-----number-----')
-// for (i = 0; i<j; i++) {
-//     if(typeof app[i] === 'number') {
-//         console.log(app[i])
-//     }
-// }
-// console.log('-----string-----')
-// i = 0
-// while (i < j) {
-//     if(typeof app[i] === 'string') {
-//         console.log(app[i])
-//     }
-//     i++
-// }
-// console.log('-----string-----')
-// for (i = 0; i < j; i++) {
-//     if (typeof app[i] === 'string') {
-//         console.log(app[i])
-//     }
-// }
-// console.log('--------------')
-//
-// i = 0
-//
-// while (i<j) {
-//     if (app[i] === 777) {
-//         console.log(app[i])
-//     } else if (app[i] === "vasya"){
-//         console.log(app[i])
-//     }
-//     i++
-// }
-//
-// for (i = 0; i < j; i++) {
-//     if (app[i] === "vasya" || app[i] === 777) {
-//         console.log(app[i])
-//     }
-// }
-// }
+// t("Anna")
 
-let element = document.querySelectorAll("#list li")
-let i = 0
-while (i < element.length) {
-    if (element[i].textContent === "3 Петя" || element[i].textContent === "Игорь"
-        || element[i].textContent === "9") {
-        console.log(element[i].textContent)
-    }
-    i++
-}
+// let counter = 0
+// const gg = setInterval(function () {
+//     if (counter === 7) {
+//         clearInterval(gg)
+//     } else {
+//         console.log(++counter)
+//     }
+// }, 100)
+//
+// const arrow = name => console.log("Hello,", name)
+// arrow("Lena")
+//
+// const pow = num => num**8
+// console.log(pow(5))
+
+// const num = (a, b, c) => a + b * c
+// console.log(num(4, 5, 2))
+//
+// function sumAll(...all) {
+//     let result = 0
+//     for (let num of all) {
+//         result  += num
+//     }
+//     return result
+// }
+// const ref = sumAll(1,3,5,6,8)
+//  console.log(ref)
+
+// function member (name) {
+//     return function (lastName) {
+//         console.log(name + lastName)
+//     }
+// }
+// const ref = member ("Yliya ")
+// console.log(ref("Melnik"))
